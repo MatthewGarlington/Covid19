@@ -289,7 +289,6 @@
 				6B1E648624B21ACC00CA5B3F /* Frameworks */,
 				6B1E648724B21ACC00CA5B3F /* Resources */,
 				7754B9754E0B991D0AE60DD5 /* [CP] Embed Pods Frameworks */,
-				27F81B6F616555B7F2E7DCE0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -328,7 +327,6 @@
 				6B1E64A224B21ACE00CA5B3F /* Frameworks */,
 				6B1E64A324B21ACE00CA5B3F /* Resources */,
 				4F1B8283E0FAB9C18FA8AC82 /* [CP] Embed Pods Frameworks */,
-				519D9A7F9360A2555D4E11F3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -433,23 +431,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		27F81B6F616555B7F2E7DCE0 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CovidCount/Pods-CovidCount-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CovidCount/Pods-CovidCount-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CovidCount/Pods-CovidCount-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		4F1B8283E0FAB9C18FA8AC82 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -465,23 +446,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CovidCount-CovidCountUITests/Pods-CovidCount-CovidCountUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		519D9A7F9360A2555D4E11F3 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CovidCount-CovidCountUITests/Pods-CovidCount-CovidCountUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CovidCount-CovidCountUITests/Pods-CovidCount-CovidCountUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CovidCount-CovidCountUITests/Pods-CovidCount-CovidCountUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7133D9696FBB7A6E674EEC79 /* [CP] Check Pods Manifest.lock */ = {
