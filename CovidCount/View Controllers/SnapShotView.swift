@@ -46,7 +46,8 @@ struct SnapShotView: View {
             
  
          
-}
+        } .background(Color(.secondarySystemBackground).blur(radius: 6.0))
+       
     }
     }
     

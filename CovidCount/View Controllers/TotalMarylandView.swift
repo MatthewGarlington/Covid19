@@ -17,54 +17,25 @@ struct TotalMarylandView: View {
 
 
 
-            NavigationView {
-
-
-
-
-                VStack{
 
 
 
 
 
 
-
-
-                    List{
+             
                         ForEach(covidFetch.allUS.filter {
                             self.searchText.isEmpty ? true : $0.code.lowercased().contains(self.searchText.lowercased())
                         }, id: \.code) { totalData in
 
 
-                            NavigationLink(
-                                destination:
-
-                                SnapShotView(totalData: totalData)) {
-
-                                Text("United States Update")
+                         
+                                SnapShotView(totalData: totalData)
                             }
                         }
                     }
-                    }
-            }
-            .navigationBarTitle("State Data", displayMode: .inline)
-            .navigationBarItems(trailing:
-
-                                    Button (action: {
-
-                                        self.isSearchVisible.toggle()
-
-                                        if !self.isSearchVisible {
-                                            self.searchText = ""
-                                        }
-
-                                    },label: {
-                                        Image(systemName: "magnifyingglass")
-                                    }))
-        }// End of Navigation View
-    }
-
+                    
+            
 struct TotalMarylandView_Previews: PreviewProvider {
     static var previews: some View {
         TotalMarylandView()

@@ -35,10 +35,11 @@ struct TotalDataCard: View {
             }// End of Vstack
             .padding(.all, /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
             .frame(width: 400, height: 100, alignment: .center)
-            .background(Color("Color-1").opacity(0.2))
+            .background(Color(.systemGray5).opacity(2.0))
             .cornerRadius(20)
             
-        }// End of Geometry reader
+        }
+    // End of Geometry reader
         
  
     }

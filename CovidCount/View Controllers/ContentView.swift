@@ -13,27 +13,29 @@ struct ContentView: View {
 
     var body: some View {
             TabView {
+              
+                TotalMarylandView()
+                    .tabItem {
+                        Image(systemName: "list.dash")
+                        Text("US")
+                    }
                 RecentView()
                     .tabItem {
                         Image(systemName: "list.dash")
-                        Text("Recent")
+                        Text("All Countries")
                     }
-
                 StateDataView()
                     .tabItem {
                         Image(systemName: "square.and.pencil")
-                        Text("State")
+                        Text("All State")
                     }
                 MapContainerView()
                     .tabItem {
                         Image(systemName: "list.dash")
                         Text("Map")
                     }
-                TotalMarylandView()
-                    .tabItem {
-                        Image(systemName: "list.dash")
-                        Text("Content")
-                    }
+           
+                    
             }
         }
 
