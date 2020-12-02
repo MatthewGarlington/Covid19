@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,9 +14,17 @@
 		6B1E649F24B21ACE00CA5B3F /* CovidCountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1E649E24B21ACE00CA5B3F /* CovidCountTests.swift */; };
 		6B1E64AA24B21ACE00CA5B3F /* CovidCountUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1E64A924B21ACE00CA5B3F /* CovidCountUITests.swift */; };
 		6B1E64B824B21E5F00CA5B3F /* CovidFetchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1E64B724B21E5F00CA5B3F /* CovidFetchRequest.swift */; };
+		6B1E687525773F1D00839F1F /* CovidUI in Resources */ = {isa = PBXBuildFile; fileRef = 6B1E687425773F1D00839F1F /* CovidUI */; };
 		6B7009DE24B3A4FF00BFA0F3 /* StateListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7009DD24B3A4FF00BFA0F3 /* StateListHeaderView.swift */; };
 		6B7985AF25697E8400A37B6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7985AE25697E8400A37B6A /* ContentView.swift */; };
 		6B7985CC256D843300A37B6A /* SnapShotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7985CB256D843300A37B6A /* SnapShotView.swift */; };
+		6B88CD6025773F71006BF3DF /* Graphaello.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B88CD5F25773F71006BF3DF /* Graphaello.swift */; };
+		6B88CD6825773FD3006BF3DF /* Covid.graphql.json in Resources */ = {isa = PBXBuildFile; fileRef = 6B88CD6725773FD3006BF3DF /* Covid.graphql.json */; };
+		6B88CD78257743F0006BF3DF /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = 6B88CD77257743F0006BF3DF /* Apollo */; };
+		6B88CD7E25774474006BF3DF /* FancyScrollView in Frameworks */ = {isa = PBXBuildFile; productRef = 6B88CD7D25774474006BF3DF /* FancyScrollView */; };
+		6B88CD84257744D9006BF3DF /* Neumorphic in Frameworks */ = {isa = PBXBuildFile; productRef = 6B88CD83257744D9006BF3DF /* Neumorphic */; };
+		6B88CD8A2577455C006BF3DF /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 6B88CD892577455C006BF3DF /* URLImage */; };
+		6B88CD9025774599006BF3DF /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 6B88CD8F25774599006BF3DF /* SwiftUICharts */; };
 		6BA029C924B3377900ABBF90 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA029C824B3377900ABBF90 /* MapView.swift */; };
 		6BA029CB24B3481A00ABBF90 /* MapContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA029CA24B3481A00ABBF90 /* MapContainerView.swift */; };
 		6BD12997256F4113002E9880 /* TotalMarylandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD12996256F4113002E9880 /* TotalMarylandView.swift */; };
@@ -38,7 +46,6 @@
 		6BEE6FA624B3FCD6001F857B /* StateDetailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEE6FA524B3FCD6001F857B /* StateDetailRow.swift */; };
 		6BEE6FAC24B4FE11001F857B /* StateJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEE6FAB24B4FE11001F857B /* StateJSON.swift */; };
 		6BEE6FC424B613E0001F857B /* response copy.json in Resources */ = {isa = PBXBuildFile; fileRef = 6BEE6FC324B613E0001F857B /* response copy.json */; };
-		6BEE6FC624B639E2001F857B /* ContentViewII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEE6FC524B639E2001F857B /* ContentViewII.swift */; };
 		E8A4FA9C14FCE99F13E5AE99 /* Pods_CovidCount.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8E574DBFE39B226D08EBF3 /* Pods_CovidCount.framework */; };
 		F82252B745B945DB94241BEF /* Pods_CovidCount_CovidCountUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 563B0F8B218CA477730250C6 /* Pods_CovidCount_CovidCountUITests.framework */; };
 /* End PBXBuildFile section */
@@ -78,9 +85,12 @@
 		6B1E64A924B21ACE00CA5B3F /* CovidCountUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidCountUITests.swift; sourceTree = "<group>"; };
 		6B1E64AB24B21ACE00CA5B3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B1E64B724B21E5F00CA5B3F /* CovidFetchRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidFetchRequest.swift; sourceTree = "<group>"; };
+		6B1E687425773F1D00839F1F /* CovidUI */ = {isa = PBXFileReference; lastKnownFileType = folder; name = CovidUI; path = ../Documents/CovidUI/CovidUI; sourceTree = "<group>"; };
 		6B7009DD24B3A4FF00BFA0F3 /* StateListHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateListHeaderView.swift; sourceTree = "<group>"; };
 		6B7985AE25697E8400A37B6A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6B7985CB256D843300A37B6A /* SnapShotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapShotView.swift; sourceTree = "<group>"; };
+		6B88CD5F25773F71006BF3DF /* Graphaello.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Graphaello.swift; path = ../Documents/CovidUI/Graphaello.swift; sourceTree = "<group>"; };
+		6B88CD6725773FD3006BF3DF /* Covid.graphql.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Covid.graphql.json; path = ../Documents/CovidUI/Covid.graphql.json; sourceTree = "<group>"; };
 		6BA029C824B3377900ABBF90 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		6BA029CA24B3481A00ABBF90 /* MapContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapContainerView.swift; sourceTree = "<group>"; };
 		6BD12996256F4113002E9880 /* TotalMarylandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalMarylandView.swift; sourceTree = "<group>"; };
@@ -102,7 +112,6 @@
 		6BEE6FA524B3FCD6001F857B /* StateDetailRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDetailRow.swift; sourceTree = "<group>"; };
 		6BEE6FAB24B4FE11001F857B /* StateJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateJSON.swift; sourceTree = "<group>"; };
 		6BEE6FC324B613E0001F857B /* response copy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "response copy.json"; sourceTree = "<group>"; };
-		6BEE6FC524B639E2001F857B /* ContentViewII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewII.swift; sourceTree = "<group>"; };
 		7D9805ACB5E26A4FFD04168A /* Pods-CovidCount-CovidCountUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CovidCount-CovidCountUITests.debug.xcconfig"; path = "Target Support Files/Pods-CovidCount-CovidCountUITests/Pods-CovidCount-CovidCountUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		843137AA687CD9E8EA981BA5 /* Pods-CovidCount.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CovidCount.release.xcconfig"; path = "Target Support Files/Pods-CovidCount/Pods-CovidCount.release.xcconfig"; sourceTree = "<group>"; };
 		9C8E574DBFE39B226D08EBF3 /* Pods_CovidCount.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CovidCount.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,7 +123,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B88CD84257744D9006BF3DF /* Neumorphic in Frameworks */,
+				6B88CD7E25774474006BF3DF /* FancyScrollView in Frameworks */,
 				E8A4FA9C14FCE99F13E5AE99 /* Pods_CovidCount.framework in Frameworks */,
+				6B88CD9025774599006BF3DF /* SwiftUICharts in Frameworks */,
+				6B88CD8A2577455C006BF3DF /* URLImage in Frameworks */,
+				6B88CD78257743F0006BF3DF /* Apollo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +154,7 @@
 		6B1E648024B21ACC00CA5B3F = {
 			isa = PBXGroup;
 			children = (
+				6B1E687425773F1D00839F1F /* CovidUI */,
 				6B1E648B24B21ACC00CA5B3F /* CovidCount */,
 				6B1E649D24B21ACE00CA5B3F /* CovidCountTests */,
 				6B1E64A824B21ACE00CA5B3F /* CovidCountUITests */,
@@ -206,7 +221,6 @@
 				6B1E64B724B21E5F00CA5B3F /* CovidFetchRequest.swift */,
 				6BE1177824B2225000BEA60C /* Model.swift */,
 				6BEE6FAB24B4FE11001F857B /* StateJSON.swift */,
-				6BEE6FC524B639E2001F857B /* ContentViewII.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -257,6 +271,8 @@
 		D2A73714E803DA038324839F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6B88CD5F25773F71006BF3DF /* Graphaello.swift */,
+				6B88CD6725773FD3006BF3DF /* Covid.graphql.json */,
 				9C8E574DBFE39B226D08EBF3 /* Pods_CovidCount.framework */,
 				563B0F8B218CA477730250C6 /* Pods_CovidCount_CovidCountUITests.framework */,
 				623E8E31E6BA8987A6F96690 /* Pods_CovidCountTests.framework */,
@@ -295,6 +311,13 @@
 			dependencies = (
 			);
 			name = CovidCount;
+			packageProductDependencies = (
+				6B88CD77257743F0006BF3DF /* Apollo */,
+				6B88CD7D25774474006BF3DF /* FancyScrollView */,
+				6B88CD83257744D9006BF3DF /* Neumorphic */,
+				6B88CD892577455C006BF3DF /* URLImage */,
+				6B88CD8F25774599006BF3DF /* SwiftUICharts */,
+			);
 			productName = CovidCount;
 			productReference = 6B1E648924B21ACC00CA5B3F /* CovidCount.app */;
 			productType = "com.apple.product-type.application";
@@ -369,6 +392,13 @@
 				Base,
 			);
 			mainGroup = 6B1E648024B21ACC00CA5B3F;
+			packageReferences = (
+				6B88CD76257743EF006BF3DF /* XCRemoteSwiftPackageReference "apollo-ios" */,
+				6B88CD7C25774474006BF3DF /* XCRemoteSwiftPackageReference "FancyScrollView" */,
+				6B88CD82257744D9006BF3DF /* XCRemoteSwiftPackageReference "neumorphic" */,
+				6B88CD882577455C006BF3DF /* XCRemoteSwiftPackageReference "url-image" */,
+				6B88CD8E25774599006BF3DF /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
 			productRefGroup = 6B1E648A24B21ACC00CA5B3F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -389,6 +419,7 @@
 				6B1E649424B21ACD00CA5B3F /* Preview Assets.xcassets in Resources */,
 				6B1E649124B21ACD00CA5B3F /* Assets.xcassets in Resources */,
 				6BE1179124B2C38E00BEA60C /* GoogleService-Info.plist in Resources */,
+				6B1E687525773F1D00839F1F /* CovidUI in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +427,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B88CD6825773FD3006BF3DF /* Covid.graphql.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -519,7 +551,6 @@
 				6BD12997256F4113002E9880 /* TotalMarylandView.swift in Sources */,
 				6B7985CC256D843300A37B6A /* SnapShotView.swift in Sources */,
 				6B1E64B824B21E5F00CA5B3F /* CovidFetchRequest.swift in Sources */,
-				6BEE6FC624B639E2001F857B /* ContentViewII.swift in Sources */,
 				6BEE6FA224B3F4EB001F857B /* StateDataView.swift in Sources */,
 				6BEE6FA624B3FCD6001F857B /* StateDetailRow.swift in Sources */,
 				6BEE6F9E24B3E60E001F857B /* StateDataRowView.swift in Sources */,
@@ -548,6 +579,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B88CD6025773F71006BF3DF /* Graphaello.swift in Sources */,
 				6B1E649F24B21ACE00CA5B3F /* CovidCountTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -866,6 +898,77 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6B88CD76257743EF006BF3DF /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.38.0;
+			};
+		};
+		6B88CD7C25774474006BF3DF /* XCRemoteSwiftPackageReference "FancyScrollView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nerdsupremacist/FancyScrollView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.3;
+			};
+		};
+		6B88CD82257744D9006BF3DF /* XCRemoteSwiftPackageReference "neumorphic" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/costachung/neumorphic/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.2;
+			};
+		};
+		6B88CD882577455C006BF3DF /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.10;
+			};
+		};
+		6B88CD8E25774599006BF3DF /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6B88CD77257743F0006BF3DF /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6B88CD76257743EF006BF3DF /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+		6B88CD7D25774474006BF3DF /* FancyScrollView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6B88CD7C25774474006BF3DF /* XCRemoteSwiftPackageReference "FancyScrollView" */;
+			productName = FancyScrollView;
+		};
+		6B88CD83257744D9006BF3DF /* Neumorphic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6B88CD82257744D9006BF3DF /* XCRemoteSwiftPackageReference "neumorphic" */;
+			productName = Neumorphic;
+		};
+		6B88CD892577455C006BF3DF /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6B88CD882577455C006BF3DF /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+		6B88CD8F25774599006BF3DF /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6B88CD8E25774599006BF3DF /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6B1E648124B21ACC00CA5B3F /* Project object */;
 }

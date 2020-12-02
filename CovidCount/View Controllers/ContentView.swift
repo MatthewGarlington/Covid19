@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
    
     var totalData: CovUSTotal
+    
 
     var body: some View {
             TabView {
@@ -34,8 +35,7 @@ struct ContentView: View {
                         Image(systemName: "list.dash")
                         Text("Map")
                     }
-           
-                    
+              
             }
         }
 

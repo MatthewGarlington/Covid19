@@ -31,8 +31,9 @@ struct TotalMarylandView: View {
 
                          
                                 SnapShotView(totalData: totalData)
-                            }
-                        }
+                        }.background(Color(.darkGray).blur(radius: 4.0))
+                        
+        }
                     }
                     
             
