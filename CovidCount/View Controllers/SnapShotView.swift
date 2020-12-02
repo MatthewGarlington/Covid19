@@ -24,14 +24,10 @@ struct SnapShotView: View {
         VStack{
           
        Spacer()
-        Image("covid19")
-            .cornerRadius(30.0)
-            .shadow(color: Color.black.opacity(0.2), radius: 10, x: 10, y: 10)
-            .shadow(color: Color.white.opacity(0.7), radius: 10, x: -5, y: -5)
-          
        Spacer()
-        Text("United States Latest")
+        Text("United States")
             .font(.title)
+            .bold()
             
             TotalDataCard(number: totalData.confirmed.formatNumber(), name: "Confirmed.", color: .black)
                 .padding()

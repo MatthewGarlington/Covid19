@@ -8,17 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
-   
+  
     var totalData: CovUSTotal
     
 
     var body: some View {
             TabView {
               
-                TotalMarylandView()
+                CountryDetailView2(data: [])
                     .tabItem {
                         Image(systemName: "list.dash")
-                        Text("US")
+                        Text("Detail")
                     }
                 RecentView()
                     .tabItem {
@@ -36,12 +36,14 @@ struct ContentView: View {
                         Text("Map")
                     }
               
+                
+               
             }
         }
 
 }
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(totalData: testCovUSTotal)
+        ContentView(totalData: testCovUSTotal )
     }
 }
